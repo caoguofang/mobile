@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    .dianTi{width:30px;height:150px;
+      position:fixed;top:50%;margin-top:-75px;left:50%;margin-left:-660px;color:#666;cursor:pointer;}
+    .dianTi li{height:29px;border-bottom: 1px dotted #ccc;text-align: center;line-height: 29px;position:relative;}
+    .wenzi{width:29px;height:29px;position:absolute;left:0;top:0;color:#c81623;background-color: #fff;}
+    .dianTi li.current .wenzi{display:block;}
+    .dianTi li:hover .wenzi{display: block;background-color: #c81623;color:#fff;}
+  </style>
+  <script src="jq.js"></script>
+</head>
+<body>
+  <ul class="dianTi">
+  <li class="f1">
+    1F
+    <div class="wenzi">服饰</div>
+  </li>
+  <li>
+    2F
+    <div class="wenzi">美装</div>
+  </li>
+  <li>
+    3F
+    <div class="wenzi">手机</div>
+  </li>
+  <li>
+    4F
+    <div class="wenzi">家电</div>
+  </li>
+  <li>
+    5F
+    <div class="wenzi">数码</div>
+  </li>
+</ul>
+  <script>
+    var f1Top=$(".f1").offset().top;
+    console.log(f1Top);
+  </script>
+</body>
+</html>

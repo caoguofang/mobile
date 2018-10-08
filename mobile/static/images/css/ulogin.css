@@ -1,0 +1,55 @@
+header>div:first-child{
+  width:1000px;
+  height:100px;
+  margin:0 auto;
+}
+header>div.header>div.logo{
+  background:url(../img/logo.jpg) no-repeat;
+  width:150px;
+  height:100px;
+  background-size:100%;
+}
+header>div.header>h5{
+  margin-top:55px;
+}
+header>div:last-child{
+  height:18px;
+  background-image:linear-gradient(to top,#f2f2f2 3px,#f4f4f4 6px,#f6f6f6 9px,#f8f8f8 12px,#fcfcfc 15px,#fefefe 18px);
+}
+section>div{
+  width:740px;
+  height:550px;
+  margin:0 auto;
+  background:url(../img/bg.png);
+}
+section>div>div{
+  width:400px;
+  margin: auto;
+}
+section>div>div>input{
+  width:400px;
+  height:40px;
+
+}
+section>div>div>i{
+  position:absolute;
+  top:32px !important;
+  left:5px;
+}
+section>div>div>P>img:last-child{
+  width:18px;
+  height:14px;
+}
+section>div>div>P>img{
+  cursor:pointer;
+}
+section>div>div>p:nth-child(6)>a:hover{
+  color:#f30213 !important;
+}
+footer>p:first-child>a{
+  color:black;
+  text-decoration:none;
+}
+footer>p:first-child>a:hover{
+  color:red;
+}

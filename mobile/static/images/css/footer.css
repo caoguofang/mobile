@@ -1,0 +1,50 @@
+ul{
+  padding:0;
+}
+footer{
+  background:#EAEAEA;
+}
+footer a{
+  color:#999;
+  text-decoration: none !important;
+}
+footer a:hover{
+  color:#f30213;
+}
+footer>ul,footer>p{
+  width:1210px;
+  list-style:none;
+  margin:0 auto;
+  padding:0 30px;
+}
+footer>ul>li{
+  float:left;
+  width:230px;
+}
+footer>ul>li>ul{
+  list-style:none;
+}
+footer>ul>li>ul>li:first-child{
+  padding:5px 0;
+  font-size:16px;
+}
+footer>ul>li>ul>li:first-child a{
+  color:#777777 !important;
+}
+footer div{
+  border-top:2px solid #dedede !important;
+  width:100%;
+}
+footer>p:last-child{
+  color:#999;
+}
+
+
+
+
+
+
+
+
+
+
